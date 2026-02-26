@@ -44,7 +44,6 @@ const Community = () => {
                   to={`/view/${project.id}`}
                   target="_blank"
                   onClick={() => navigate(`/projects/${project.id}`)}
-                  key={project.id}
                   className="w-72 max-sm:mx-auto coursor-pointer bg-gray-900/60 border border-gray-700 rounded-lg overflow-hidden group hover:border-indigo-800/80 transition-all duration-300"
                 >
                   {/* Desktop-like Mini Preview */}
